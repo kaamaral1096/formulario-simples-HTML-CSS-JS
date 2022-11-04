@@ -25,11 +25,11 @@ function handleSubmit() {
             (pessoa) => {
                 return `
                     <div class="line"> 
-                        ${pessoa.fullNameValue},
-                        ${pessoa.birthDateValue},
-                        ${pessoa.occupationValue},
-                        ${pessoa.civilStatusValue},
-                        ${pessoa.emailValue}
+                        ${pessoa.fullNameValue ? pessoa.fullNameValue : ''}
+                        ${pessoa.birthDateValue ? ', ' + pessoa.birthDateValue : ''}
+                        ${pessoa.occupationValue ? ', ' + pessoa.occupationValue : ''}
+                        ${pessoa.civilStatusValue ? ', ' + pessoa.civilStatusValue : ''}
+                        ${pessoa.emailValue ? ', ' + pessoa.emailValue : ''}
                     </div>
                 `
             }
