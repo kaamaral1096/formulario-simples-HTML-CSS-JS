@@ -1,0 +1,66 @@
+
+.page-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #fffafa;
+}
+.forms-container{
+    border-width: 0.5px;
+    border-style: solid;
+    border-color: #a52a2a;
+    padding: 20px;
+    width: 40%;
+}
+.title{
+    color: #a52a2a
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    margin: 45px;
+}
+.form span{
+    margin: 12px;
+}
+
+.form span input{
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom-width: 0.5px;
+    background-color: inherit;
+}
+.submit-button{
+    width: 50%;
+    align-self: flex-start;
+    cursor: pointer;
+    background-color: #9c4a46;
+    border-width: 0.5px;
+    margin-top: 20px;
+    border-radius: 10px;
+    color: white
+}
+.result-container{
+    border-width: 0.5px;
+    border-style: solid;
+    border-color: #004193;
+    padding: 20px;
+    width: 50%;
+}
+.result-container .leaf{
+    background-color: #f5f5f5;
+    width: 90%;
+    height: 90%;
+}
+.result-container .leaf .line{
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom-width: 0.5px;
+    border-style: solid;
+    width: 95%;
+    margin-right: auto;
+    margin-left: auto;
+    border-bottom-color: #4169e1;
+}
